@@ -5,15 +5,8 @@ from discord.ui import View, Button, Modal, TextInput, Select
 import asyncio
 import os
 
-git init
-git add .
-git commit -m "Первоначальная версия бота"
-git branch -M main
-git remote add origin https://github.com/ваш_ник/название_репозитория.git
-git push -u origin main
-
-
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
+
 GUILD_ID = 1308339157265027174  # Укажи ID сервера
 TICKET_CHANNEL_ID = 1308340461861339150  # Канал, куда будут отправляться заявки
 ADMIN_ROLE_ID = 1309011989326204998  # ID роли администратора
